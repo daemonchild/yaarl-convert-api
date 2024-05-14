@@ -1,0 +1,22 @@
+{
+    "logbook": [
+        {
+            "id": "",
+            "callsign":         "call",
+            "first_name":       "name",
+            "freq_rx":          "freq_rx",
+            "freq_tx":          "freq",
+            "log_date":         "qso_date",
+            "time_start":       "time_on",
+            "time_end":         "time_off",
+            "band":             "band",
+            "mode":             "mode",
+            "sigrep_rcvd":        "rst_rcvd",
+            "sigrep_sent":        "rst_sent",
+            "notes":            "notes",
+            "logbook_callsign": "station_callsign",
+            "grid_square":       "gridsquare",
+            "tx_pwr":           "tx_pwr"
+        }
+    ]
+}

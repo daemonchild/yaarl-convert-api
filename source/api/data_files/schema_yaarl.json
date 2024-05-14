@@ -1,0 +1,46 @@
+{
+    "userinfo": {
+        "callsign":         "MW0KKR",
+        "name":             "Tom Rowan",
+        "qth":              "Pontypridd",
+        "latitude":         "51",
+        "longitude":        "-3"
+    },
+    "logbook": [
+        {
+            "id": 1,
+            "callsign":         "mandatory",
+            "first_name":       "string",
+            "freq_rx":          "string",
+            "freq_tx":          "mandatory",
+            "log_date":             "mandatory",
+            "time_start":       "mandatory",
+            "time_end":         "string",
+            "band":             "string",
+            "mode":             "mandatory",
+            "sigrep_rcvd":        "string",
+            "sigrep_sent":        "string",
+            "notes":            "string",
+            "logbook_callsign": "mandatory",
+            "grid_square":       "string",
+            "tx_pwr":       "string"
+        }
+    ],
+    "callsigns": [
+        {
+            "id": 1,
+            "callsign":         "mandatory",
+            "continent":        "string",
+            "country":          "string",
+            "distance":         "string",
+            "email":            "string",
+            "grid_square":       "string",
+            "latitude":         "string",
+            "longitude":        "string",
+            "first_name":       "string",
+            "full_name":        "string",
+            "qth":              "string",
+            "notes":            "string"
+        }
+    ]
+}

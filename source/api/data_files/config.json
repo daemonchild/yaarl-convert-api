@@ -1,0 +1,7 @@
+{
+    "app_config": {
+        "file_schema":      "schema.json",
+        "file_itu_prefix":   "itu_prefixes.json",
+        "file_ar_bands":    "amateur_radio_bands.json"  
+    }
+}
