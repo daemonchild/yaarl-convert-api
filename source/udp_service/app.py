@@ -22,7 +22,7 @@ while True:
         message = message.decode()
 
         # Otherwise, the server responds
-        print (f"[Log Received] {message}")
+        print (f"[Log Received]\n{message}")
 
         api_from = "adif"
         api_to = "yaarl"
@@ -44,8 +44,8 @@ while True:
             print (f"[Sending to Yaarl Log API]")
             print (json_logdata)
             
-            log_response = requests.post(url=LOGBOOKAPIURL, headers=headers, data=json_logdata)
-            print (f"Got: {log_response.status_code}, {log_response.content}")
+            #log_response = requests.post(url=LOGBOOKAPIURL, headers=headers, data=json_logdata)
+            #print (f"Got: {log_response.status_code}, {log_response.content}")
 
         else:
             print ("[Error] Conversion API failed.")
